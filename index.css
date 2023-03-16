@@ -1,0 +1,116 @@
+body{
+	background-image: url("images/book-bg.jpg");
+}
+h1{
+	text-align: center;
+	font: normal small-caps bold xx-large cursive;
+	font-size: 50px;
+	color: gold;
+	text-shadow:  2px 2px 5px white;
+	/*background-color: black;*/
+}
+hr{
+	background-color: #4d2600;
+}
+#navcontainer ul
+{
+margin: 16px;
+padding: 32px;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline;
+	padding: 32px; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: 15px;
+color: #fff;
+background-color: #036;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+
+#marqueecontainer marquee{
+	font-size: 25px;
+	margin-top: 50px;
+	color: gold;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centeredtop {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.centeredmid {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  	font-size: 35px;
+}
+
+#img1{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 100px;
+}
+.zoom
+{
+ transition:transform 0.5s;
+ }
+.zoom:hover
+{
+transform: scale(1.2);
+}
+
+#inputform ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.zoom{
+	border-radius: 10px;
+}
+
+#belowform{
+	color: white;
+}
+
+#homepagebottomtext {
+	color: white;
+	text-align: center;
+}
+
+#homepagebottomtext ul{
+	list-style-type: none;
+	color: gold;
+}
